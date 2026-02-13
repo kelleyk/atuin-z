@@ -3,6 +3,11 @@ name = "atuin-z"
 version = "0.1.0"
 edition = "2021"
 description = "Frecency-based directory jumping from Atuin history"
+license = "MIT"
+repository = "https://github.com/kelleyk/atuin-z"
+readme = "README.md"
+keywords = ["atuin", "zoxide", "autojump", "directory", "frecency"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1"
