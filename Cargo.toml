@@ -1,0 +1,11 @@
+[package]
+name = "atuin-z"
+version = "0.1.0"
+edition = "2021"
+description = "Frecency-based directory jumping from Atuin history"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+dirs = "6"
+rusqlite = { version = "0.32", features = ["bundled"] }
