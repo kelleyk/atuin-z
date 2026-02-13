@@ -6,10 +6,10 @@ atuin-z works like [z](https://github.com/rupa/z) or [zoxide](https://github.com
 
 ## Installation
 
-Build from source (requires Rust):
+Install from [crates.io](https://crates.io/crates/atuin-z):
 
 ```sh
-cargo install --path .
+cargo install atuin-z
 ```
 
 Then add the shell integration to your shell config:
